@@ -1,0 +1,17 @@
+corruption,A11_ConservativeGating
+gaussian_noise,70.9
+shot_noise,76.0
+impulse_noise,76.5
+defocus_blur,91.1
+glass_blur,69.2
+motion_blur,87.6
+zoom_blur,89.8
+snow,87.4
+frost,87.4
+fog,92.2
+brightness,93.4
+contrast,92.7
+elastic_transform,86.0
+pixelate,86.4
+jpeg_compression,73.6
+Mean,84.0

@@ -1,0 +1,29 @@
+\begin{table*}[t]
+\centering
+\caption{Accuracy (\%) on ImageNet-C under continual sequential shift, Severity~5. \textbf{Bold} = best per row. Source model: torchvision ResNet-50 (\texttt{IMAGENET1K\_V1}). \textsc{ContinualTTA} uses $\tau{=}0.04$, $\eta{=}2.5{\times}10^{-4}$.}
+\label{tab:imagenetc}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lcc}
+\toprule
+Corruption & Baseline & SAR~\cite{niu2023towards} \\
+\midrule
+Gaussian Noise & \textbf{5.7} & 2.2 \\
+Shot Noise & \textbf{6.5} & 2.1 \\
+Impulse Noise & \textbf{6.5} & 2.2 \\
+Defocus Blur & \textbf{15.0} & 1.6 \\
+Glass Blur & \textbf{8.2} & 1.4 \\
+Motion Blur & \textbf{13.3} & 2.7 \\
+Zoom Blur & \textbf{22.9} & 4.0 \\
+Snow & \textbf{15.6} & 4.6 \\
+Frost & \textbf{20.4} & 4.8 \\
+Fog & \textbf{22.2} & 6.0 \\
+Brightness & \textbf{55.6} & 8.0 \\
+Contrast & \textbf{4.2} & 2.3 \\
+Elastic & \textbf{14.3} & 4.4 \\
+Pixelate & \textbf{23.0} & 4.8 \\
+JPEG & \textbf{34.5} & 4.7 \\
+\midrule
+\textbf{Mean} & \textbf{17.9} & 3.7 \\
+\bottomrule
+\end{tabular}}
+\end{table*}

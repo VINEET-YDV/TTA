@@ -1,0 +1,17 @@
+corruption,Baseline,SAR
+gaussian_noise,5.68,2.20
+shot_noise,6.49,2.14
+impulse_noise,6.45,2.19
+defocus_blur,15.04,1.56
+glass_blur,8.24,1.42
+motion_blur,13.29,2.69
+zoom_blur,22.85,3.98
+snow,15.59,4.61
+frost,20.44,4.80
+fog,22.21,5.99
+brightness,55.64,8.00
+contrast,4.23,2.33
+elastic_transform,14.32,4.38
+pixelate,22.98,4.82
+jpeg_compression,34.54,4.67
+Mean,17.87,3.72

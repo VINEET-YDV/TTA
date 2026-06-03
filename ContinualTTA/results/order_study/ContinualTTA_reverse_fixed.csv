@@ -1,0 +1,17 @@
+corruption,acc
+jpeg_compression,73.97
+pixelate,88.12
+elastic_transform,87.29
+contrast,92.80
+brightness,93.21
+fog,92.17
+frost,88.61
+snow,88.36
+zoom_blur,90.35
+motion_blur,88.36
+glass_blur,75.21
+defocus_blur,91.07
+impulse_noise,80.39
+shot_noise,80.51
+gaussian_noise,76.26
+Mean,85.78

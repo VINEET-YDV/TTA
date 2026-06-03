@@ -1,0 +1,24 @@
+# See all ablations
+python ablation.py --list
+
+# Full method (reference)
+python ablation.py --ablation A0 --dataset cifar10c --setting b
+
+# Remove each component
+python ablation.py --ablation A1 --dataset cifar10c --setting b   # no detector
+python ablation.py --ablation A2 --dataset cifar10c --setting b   # no filter
+python ablation.py --ablation A3 --dataset cifar10c --setting b   # no prototype
+python ablation.py --ablation A4 --dataset cifar10c --setting b   # neither (≈ TENT)
+
+# Detector variants
+python ablation.py --ablation A5 --dataset cifar10c --setting b   # KL instead of JS
+python ablation.py --ablation A6 --dataset cifar10c --setting b   # entropy detector
+
+# Hyperparameter sensitivity
+python ablation.py --ablation A7 --dataset cifar10c --setting b   # β=0.5
+python ablation.py --ablation A8 --dataset cifar10c --setting b   # β=0.99
+python ablation.py --ablation A9 --dataset cifar10c --setting b   # τ=0.01
+python ablation.py --ablation A10 --dataset cifar10c --setting b  # τ=0.05
+
+# After all done — merge CSVs and generate LaTeX in one command
+python ablation.py --merge --dataset cifar10c --setting b

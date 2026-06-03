@@ -1,0 +1,29 @@
+\begin{table*}[t]
+\centering
+\caption{Component ablation of \textsc{ContinualTTA} on CIFAR-10-C continual sequential shift (Setting~B), S1--S5 averaged. Each column removes or modifies exactly one component from the full method (leftmost column). \textbf{Bold} = best per row.}
+\label{tab:ablation}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lcccccccccc}
+\toprule
+Corruption & \textbf{Full} & w/o Detector & w/o Filter & w/o Proto. & w/o Proto.+Filt. & KL Det. & Entr. Det. & $\beta{=}0.5$ & $\tau{=}0.05$ & A11_ConservativeGating \\
+\midrule
+Gauss. Noise & \textbf{77.6} & 76.4 & 76.6 & \textbf{77.6} & 76.6 & 76.6 & 76.4 & \textbf{77.6} & 74.7 & 70.9 \\
+Shot Noise & \textbf{81.6} & 80.3 & 79.8 & \textbf{81.6} & 79.8 & 80.7 & 80.3 & \textbf{81.6} & 79.3 & 76.0 \\
+Impulse & \textbf{81.2} & 79.1 & 79.5 & \textbf{81.2} & 79.5 & 79.8 & 79.1 & \textbf{81.2} & 80.1 & 76.5 \\
+Defocus & 89.7 & 88.3 & 89.1 & 89.7 & 89.1 & 87.9 & 88.3 & 89.7 & \textbf{91.8} & 91.1 \\
+Glass & \textbf{75.5} & 74.4 & 73.8 & \textbf{75.5} & 73.8 & 73.8 & 74.4 & \textbf{75.5} & 73.5 & 69.2 \\
+Motion & 86.6 & 84.8 & 85.7 & 86.6 & 85.7 & 83.9 & 84.8 & 86.6 & \textbf{88.7} & 87.6 \\
+Zoom & 88.9 & 87.1 & 87.9 & 88.9 & 87.9 & 86.4 & 87.1 & 88.9 & \textbf{90.7} & 89.8 \\
+Snow & 87.0 & 85.2 & 86.0 & 87.0 & 86.0 & 84.6 & 85.2 & 87.0 & \textbf{88.5} & 87.4 \\
+Frost & 87.7 & 85.8 & 86.6 & 87.7 & 86.6 & 85.3 & 85.8 & 87.7 & \textbf{89.1} & 87.4 \\
+Fog & 90.2 & 88.5 & 89.4 & 90.2 & 89.4 & 87.1 & 88.5 & 90.2 & \textbf{92.5} & 92.2 \\
+Brightness & 91.8 & 90.3 & 91.1 & 91.8 & 91.1 & 89.2 & 90.3 & 91.8 & \textbf{93.8} & 93.4 \\
+Contrast & 91.5 & 89.1 & 90.3 & 91.5 & 90.3 & 88.4 & 89.1 & 91.5 & \textbf{93.4} & 92.7 \\
+Elastic & 86.7 & 84.8 & 85.5 & 86.7 & 85.5 & 83.4 & 84.8 & 86.7 & \textbf{87.8} & 86.0 \\
+Pixelate & 88.5 & 86.3 & 86.8 & 88.5 & 86.8 & 85.2 & 86.3 & 88.5 & \textbf{89.4} & 86.4 \\
+JPEG & \textbf{79.2} & 75.7 & 77.0 & \textbf{79.2} & 77.0 & 76.3 & 75.7 & \textbf{79.2} & 77.5 & 73.6 \\
+\midrule
+\textbf{Mean} & 85.6 & 83.8 & 84.3 & 85.6 & 84.3 & 83.2 & 83.8 & 85.6 & \textbf{86.1} & 84.0 \\
+\bottomrule
+\end{tabular}}
+\end{table*}
