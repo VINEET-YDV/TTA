@@ -1,0 +1,29 @@
+\begin{table*}[t]
+\centering
+\caption{Accuracy (\%) on ImageNet-C (severity 5) with ResNet-50-GN, fresh-per-corruption protocol. \textbf{Bold} = best per row. GN/LN architectures are used following SAR~\cite{niu2023towards}, as BN-based adaptation is unstable at severity~5 due to low per-corruption baseline accuracy.}
+\label{tab:imagenetc_gn}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lc}
+\toprule
+Corruption & \textbf{\textsc{ContinualTTA} (Ours)} \\
+\midrule
+Gaussian Noise & \textbf{28.1} \\
+Shot Noise & \textbf{29.5} \\
+Impulse Noise & \textbf{29.7} \\
+Defocus Blur & \textbf{22.1} \\
+Glass Blur & \textbf{14.8} \\
+Motion Blur & \textbf{29.1} \\
+Zoom Blur & \textbf{24.8} \\
+Snow & \textbf{38.0} \\
+Frost & \textbf{40.8} \\
+Fog & \textbf{40.4} \\
+Brightness & \textbf{70.2} \\
+Contrast & \textbf{40.8} \\
+Elastic & \textbf{14.2} \\
+Pixelate & \textbf{48.1} \\
+JPEG & \textbf{53.9} \\
+\midrule
+\textbf{Mean} & \textbf{35.0} \\
+\bottomrule
+\end{tabular}}
+\end{table*}

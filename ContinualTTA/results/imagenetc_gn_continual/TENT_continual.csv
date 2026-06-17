@@ -1,0 +1,17 @@
+corruption,TENT
+gaussian_noise,4.53
+shot_noise,0.16
+impulse_noise,0.11
+defocus_blur,0.21
+glass_blur,0.10
+motion_blur,0.10
+zoom_blur,0.10
+snow,0.10
+frost,0.10
+fog,0.10
+brightness,0.10
+contrast,0.10
+elastic_transform,0.10
+pixelate,0.10
+jpeg_compression,0.10
+Mean,0.41

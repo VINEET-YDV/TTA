@@ -1,0 +1,17 @@
+corruption,EATA
+gaussian_noise,10.7080
+shot_noise,0.2200
+impulse_noise,0.1160
+defocus_blur,0.9140
+glass_blur,0.3880
+motion_blur,0.2520
+zoom_blur,0.3140
+snow,0.6280
+frost,0.1000
+fog,0.1000
+brightness,0.1000
+contrast,0.1000
+elastic_transform,0.1000
+pixelate,0.1000
+jpeg_compression,0.1000
+Mean,0.9493

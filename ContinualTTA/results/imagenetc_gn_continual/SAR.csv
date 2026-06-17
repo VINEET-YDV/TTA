@@ -1,0 +1,17 @@
+corruption,SAR
+gaussian_noise,31.4580
+shot_noise,41.1620
+impulse_noise,42.6640
+defocus_blur,15.0540
+glass_blur,17.4020
+motion_blur,4.9760
+zoom_blur,1.8020
+snow,22.0460
+frost,39.7960
+fog,50.8360
+brightness,69.9160
+contrast,44.6240
+elastic_transform,13.7780
+pixelate,1.3000
+jpeg_compression,38.3300
+Mean,29.0096
