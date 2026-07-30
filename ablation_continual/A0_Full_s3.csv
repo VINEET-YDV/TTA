@@ -1,0 +1,17 @@
+corruption,A0_Full_s3
+gaussian_noise,74.1600
+shot_noise,78.3700
+impulse_noise,81.7000
+defocus_blur,92.0600
+glass_blur,78.6000
+motion_blur,86.8700
+zoom_blur,90.3200
+snow,87.8700
+frost,87.2300
+fog,92.6300
+brightness,93.3100
+contrast,93.0800
+elastic_transform,90.2700
+pixelate,90.7300
+jpeg_compression,78.4800
+Mean,86.3787

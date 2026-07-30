@@ -1,0 +1,17 @@
+corruption,A6_EntropyDetector
+gaussian_noise,76.4
+shot_noise,80.3
+impulse_noise,79.1
+defocus_blur,88.3
+glass_blur,74.4
+motion_blur,84.8
+zoom_blur,87.1
+snow,85.2
+frost,85.8
+fog,88.5
+brightness,90.3
+contrast,89.1
+elastic_transform,84.8
+pixelate,86.3
+jpeg_compression,75.7
+Mean,83.8

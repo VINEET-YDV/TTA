@@ -1,0 +1,17 @@
+corruption,A1_NoDetector_s5
+gaussian_noise,65.7800
+shot_noise,66.2600
+impulse_noise,63.2000
+defocus_blur,74.9200
+glass_blur,63.8600
+motion_blur,72.8400
+zoom_blur,77.5800
+snow,74.3700
+frost,74.8500
+fog,75.1100
+brightness,81.7900
+contrast,79.6500
+elastic_transform,69.0500
+pixelate,74.1400
+jpeg_compression,65.2300
+Mean,71.9087

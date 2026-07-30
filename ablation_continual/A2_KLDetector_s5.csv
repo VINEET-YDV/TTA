@@ -1,0 +1,17 @@
+corruption,A2_KLDetector_s5
+gaussian_noise,69.9100
+shot_noise,70.5700
+impulse_noise,67.3100
+defocus_blur,78.9200
+glass_blur,68.2600
+motion_blur,77.2000
+zoom_blur,82.0500
+snow,80.5400
+frost,80.0200
+fog,79.0000
+brightness,85.4500
+contrast,80.5400
+elastic_transform,73.0200
+pixelate,76.6000
+jpeg_compression,69.5800
+Mean,75.9313
