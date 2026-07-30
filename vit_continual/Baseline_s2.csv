@@ -1,0 +1,17 @@
+corruption,Baseline_s2
+gaussian_noise,85.5900
+shot_noise,91.2700
+impulse_noise,91.7300
+defocus_blur,95.6300
+glass_blur,83.9400
+motion_blur,91.8200
+zoom_blur,93.7300
+snow,92.6700
+frost,93.9700
+fog,95.4700
+brightness,96.1600
+contrast,95.6800
+elastic_transform,94.0200
+pixelate,94.0100
+jpeg_compression,89.2700
+Mean,92.3307

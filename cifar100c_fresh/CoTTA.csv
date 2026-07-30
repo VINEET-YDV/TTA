@@ -1,0 +1,17 @@
+corruption,CoTTA
+gaussian_noise,10.21
+shot_noise,11.70
+impulse_noise,6.90
+defocus_blur,22.56
+glass_blur,14.23
+motion_blur,26.91
+zoom_blur,30.49
+snow,52.04
+frost,37.16
+fog,40.91
+brightness,69.69
+contrast,27.75
+elastic_transform,28.20
+pixelate,14.47
+jpeg_compression,33.92
+Mean,28.48

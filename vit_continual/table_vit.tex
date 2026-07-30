@@ -1,0 +1,14 @@
+\begin{table}[t]
+\centering
+\caption{Accuracy (\%) on CIFAR-10-C under the truly continual protocol with ViT-Small/16 (LayerNorm). Only LN affine parameters ($\gamma$, $\beta$) are adapted. ResNet-50 (BN) results from Table~\ref{tab:main_cifar} shown for reference. \textbf{Bold} = best.}
+\label{tab:vit}
+\begin{tabular}{lcc}
+\toprule
+Method & ViT-S/16 (LN) & ResNet-50 (BN) \\
+\midrule
+Baseline & 88.60 & 77.50 \\
+TENT~\cite{wang2021tent} & 90.73 & 82.07 \\
+\textbf{\textsc{ContinualTTA} (Ours)} & \textbf{91.53} & 86.22 \\
+\bottomrule
+\end{tabular}
+\end{table}

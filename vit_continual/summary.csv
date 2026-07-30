@@ -1,0 +1,4 @@
+method,gaussian_noise,shot_noise,impulse_noise,defocus_blur,glass_blur,motion_blur,zoom_blur,snow,frost,fog,brightness,contrast,elastic_transform,pixelate,jpeg_compression,Mean
+Baseline,78.12,83.02,83.87,93.23,79.62,88.73,91.76,91.94,91.97,91.81,95.71,93.44,90.03,87.59,88.14,88.60
+TENT,83.24,87.38,87.56,94.50,83.46,90.51,93.25,92.21,93.17,92.60,96.26,95.21,91.43,92.04,88.21,90.73
+ContinualTTA,84.50,88.90,89.20,94.90,84.13,91.46,94.06,93.17,94.09,93.94,96.28,95.36,92.17,91.43,89.29,91.53

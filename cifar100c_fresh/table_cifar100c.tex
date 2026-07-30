@@ -1,0 +1,29 @@
+\begin{table*}[t]
+\centering
+\caption{Accuracy (\%) on CIFAR-100-C, severity~5, standard fresh-per-corruption protocol. Each method receives a fresh model before each corruption type. Source model: ResNet-50 (BatchNorm, 82.7\% clean accuracy on CIFAR-100). \textbf{Bold} = best per row.}
+\label{tab:cifar100c}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lccccccc}
+\toprule
+Corruption & Baseline & TENT~\cite{wang2021tent} & EATA~\cite{niu2022efficient} & CoTTA~\cite{wang2022continual} & RoTTA~\cite{yuan2023robust} & SAR~\cite{niu2023towards} & \textbf{\textsc{ContinualTTA} (Ours)} \\
+\midrule
+Gaussian Noise & 12.3 & 37.3 & \textbf{44.0} & 10.2 & 8.5 & 40.7 & 42.6 \\
+Shot Noise & 14.5 & 35.6 & \textbf{47.3} & 11.7 & 8.0 & 42.3 & 39.2 \\
+Impulse Noise & 8.1 & 24.6 & 27.8 & 6.9 & 6.4 & \textbf{32.8} & \textbf{32.8} \\
+Defocus Blur & 36.2 & 62.2 & 66.0 & 22.6 & 26.7 & \textbf{70.4} & 66.6 \\
+Glass Blur & 19.8 & 31.4 & 32.9 & 14.2 & 12.2 & \textbf{39.0} & 37.9 \\
+Motion Blur & 46.4 & 57.8 & 62.1 & 26.9 & 34.8 & \textbf{65.1} & 63.4 \\
+Zoom Blur & 48.1 & 62.6 & 67.6 & 30.5 & 34.4 & \textbf{70.9} & 66.2 \\
+Snow & 57.5 & 58.3 & \textbf{64.1} & 52.0 & 54.5 & 60.4 & 59.1 \\
+Frost & 46.3 & 53.4 & 57.5 & 37.2 & 41.1 & \textbf{61.5} & 56.1 \\
+Fog & 56.5 & 60.5 & \textbf{64.4} & 40.9 & 55.8 & 63.5 & 63.6 \\
+Brightness & \textbf{75.4} & 68.9 & 71.0 & 69.7 & 72.6 & \textbf{75.4} & 71.2 \\
+Contrast & 36.3 & 50.8 & 65.7 & 27.8 & 26.9 & \textbf{71.9} & 57.5 \\
+Elastic & 46.3 & 41.1 & 48.5 & 28.2 & 38.9 & \textbf{51.7} & 30.6 \\
+Pixelate & 20.3 & 56.7 & \textbf{61.2} & 14.5 & 15.1 & 57.0 & 58.0 \\
+JPEG & 42.6 & 37.2 & \textbf{46.3} & 33.9 & 40.7 & 45.4 & 36.7 \\
+\midrule
+\textbf{Mean} & 37.8 & 49.2 & 55.1 & 28.5 & 31.8 & \textbf{56.5} & 52.1 \\
+\bottomrule
+\end{tabular}}
+\end{table*}

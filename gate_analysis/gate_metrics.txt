@@ -1,0 +1,31 @@
+==============================================================
+EXPERIMENT 5 — GATE DETECTION QUALITY
+==============================================================
+
+Batches            : 23475
+Unconditional (b1) : 1  (Algorithm 1 line 4)
+Overall fire rate  : 15.87%   (paper reports 16.1%)
+Boundaries         : 74
+
+ tol  bnd recall  within-blk      lift   caught
+------------------------------------------------
+   1       0.149      0.1587       0.9   11/74 
+   2       0.140      0.1588       0.9   31/74 
+   5       0.147      0.1590       0.9   98/74 
+
+Severity-jump recall : 0.000  (blocks 15,30,45,60)
+Median JS at boundary: 0.02142
+Median JS within blk : 0.02238
+Threshold tau        : 0.04
+Mean position of within-block firing: 159.1 / 312
+
+precision=0.0030  chance=0.0032
+  ^ precision is base-rate-limited here; use LIFT as the headline.
+
+==============================================================
+INTERPRETATION
+==============================================================
+  Lift is near 1 -> firing is roughly UNIFORM, not boundary-localised.
+  The accuracy gain likely comes from adapting LESS, not from
+  adapting at the right TIME. 'Timing, not quantity' would need
+  rewording. Better to find this now than in review.

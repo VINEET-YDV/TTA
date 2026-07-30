@@ -1,0 +1,17 @@
+corruption,RoTTA
+gaussian_noise,8.53
+shot_noise,8.01
+impulse_noise,6.39
+defocus_blur,26.66
+glass_blur,12.16
+motion_blur,34.80
+zoom_blur,34.38
+snow,54.45
+frost,41.14
+fog,55.78
+brightness,72.61
+contrast,26.86
+elastic_transform,38.85
+pixelate,15.05
+jpeg_compression,40.71
+Mean,31.76

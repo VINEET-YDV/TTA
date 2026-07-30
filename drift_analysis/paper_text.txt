@@ -1,0 +1,28 @@
+PAPER TEXT FOR DRIFT ANALYSIS SECTION
+============================================================
+
+\paragraph{Drift analysis.}
+Figure~\ref{fig:drift} tracks normalised BN parameter drift
+$\|\theta_t - \theta_0\|_2 / \|\theta_0\|_2$ over the 75-block
+truly continual sequence.
+TENT accumulates large, monotonically increasing drift
+(final drift: $0.169$), consistent with unconditional
+entropy minimisation steadily moving parameters away from
+the source calibration regardless of whether genuine shift
+has occurred.
+\ours{} exhibits a staircase pattern: drift increases sharply
+at corruption boundaries (when JS$>\tau$ triggers adaptation)
+and remains flat within stable corruption periods
+(when the gate suppresses updates), reaching a final drift
+of $0.065$ — $2.6\times$ smaller than TENT.
+This directly visualises the mechanism by which JS gating
+prevents drift accumulation: adaptation is selective rather
+than continuous.
+
+FIGURE CAPTION:
+BN parameter drift $\|\theta_t - \theta_0\|_2 / \|\theta_0\|_2$
+(top) and accuracy (bottom) over 75 corruption-severity blocks
+under the truly continual protocol on CIFAR-10-C.
+\ours{} (teal) exhibits a staircase drift pattern — increasing
+only at corruption boundaries — while TENT accumulates
+continuous drift. Vertical lines mark severity transitions.

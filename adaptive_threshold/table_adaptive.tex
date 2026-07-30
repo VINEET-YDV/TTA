@@ -1,0 +1,15 @@
+\begin{table}[t]
+\centering
+\small
+\caption{Adaptive threshold $\tau_t = \mu_{\mathrm{JS}} + k\sigma_{\mathrm{JS}}$ vs fixed $\tau$ on CIFAR-10-C (S1--S5 mean) and ImageNet-C GN (S5 mean). Fixed $\tau$ results from Table~\ref{tab:main_cifar} and~\ref{tab:main_imagenet}. \textbf{Bold}=best adaptive.}
+\label{tab:adaptive}
+\begin{tabular}{lcc}
+\toprule
+Method & CIFAR-10-C (\%) & ImageNet-C (\%) \\
+\midrule
+Fixed $\tau$ (per-dataset) & 86.22 & 34.3 \\
+\midrule
+Adaptive $k=1.5$ & --- & \textbf{32.67} \\
+\bottomrule
+\end{tabular}
+\end{table}

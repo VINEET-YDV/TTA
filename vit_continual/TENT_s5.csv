@@ -1,0 +1,17 @@
+corruption,TENT_s5
+gaussian_noise,76.0800
+shot_noise,77.5100
+impulse_noise,71.4500
+defocus_blur,89.1900
+glass_blur,73.5300
+motion_blur,82.7200
+zoom_blur,86.8900
+snow,86.8400
+frost,87.2900
+fog,80.2600
+brightness,93.9000
+contrast,89.5800
+elastic_transform,80.4600
+pixelate,83.3100
+jpeg_compression,81.4100
+Mean,82.6947

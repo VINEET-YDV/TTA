@@ -1,0 +1,17 @@
+corruption,ContinualTTA_s5
+gaussian_noise,78.5600
+shot_noise,81.8000
+impulse_noise,78.9500
+defocus_blur,90.6800
+glass_blur,80.0200
+motion_blur,87.9600
+zoom_blur,91.3600
+snow,91.1000
+frost,91.8500
+fog,86.6700
+brightness,94.3600
+contrast,90.5800
+elastic_transform,84.6100
+pixelate,80.8800
+jpeg_compression,85.1600
+Mean,86.3027
