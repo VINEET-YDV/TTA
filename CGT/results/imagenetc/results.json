@@ -1,0 +1,68 @@
+{
+  "args": {
+    "data_dir": "C:\\Users\\Vineet9.Yadav\\Desktop\\TTA\\ImageNet-C",
+    "output_dir": "C:\\Users\\Vineet9.Yadav\\Desktop\\TTA\\results\\imagenetc",
+    "severity": 3,
+    "corruptions": [
+      "gaussian_noise",
+      "impulse_noise",
+      "glass_blur"
+    ],
+    "batch_size": 128,
+    "num_workers": 8,
+    "cgs_thresh": 0.4,
+    "k": 20,
+    "bank_size": 2048,
+    "lr": 0.001,
+    "steps": 1,
+    "entropy_thresh": 0.95
+  },
+  "severity": 3,
+  "results": {
+    "source_only": {
+      "gaussian_noise": {
+        "acc": 0.33298,
+        "ece": 0.12107069782055914
+      },
+      "impulse_noise": {
+        "acc": 0.32374,
+        "ece": 0.1228967856746167
+      },
+      "glass_blur": {
+        "acc": 0.15902,
+        "ece": 0.1583763505603373
+      }
+    },
+    "tent": {
+      "gaussian_noise": {
+        "acc": 0.03154,
+        "ece": 0.5916281100115179
+      },
+      "impulse_noise": {
+        "acc": 0.0307,
+        "ece": 0.5924639255455136
+      },
+      "glass_blur": {
+        "acc": 0.01864,
+        "ece": 0.6459709575585276
+      }
+    },
+    "cgt_tta": {
+      "gaussian_noise": {
+        "acc": 0.03146,
+        "ece": 0.5895039704929292,
+        "gate_rate": 0.63186
+      },
+      "impulse_noise": {
+        "acc": 0.03056,
+        "ece": 0.590419632036686,
+        "gate_rate": 0.62466
+      },
+      "glass_blur": {
+        "acc": 0.01866,
+        "ece": 0.644021606849432,
+        "gate_rate": 0.67632
+      }
+    }
+  }
+}

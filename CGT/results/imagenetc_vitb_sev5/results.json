@@ -1,0 +1,221 @@
+{
+  "model": "vit_b_16",
+  "severity": 5,
+  "args": {
+    "data_dir": "C:\\Users\\Vineet9.Yadav\\Desktop\\TTA\\ImageNet-C",
+    "output_dir": "C:\\Users\\Vineet9.Yadav\\Desktop\\TTA\\results\\imagenetc_vitb_sev5",
+    "severity": 5,
+    "corruptions": null,
+    "batch_size": 64,
+    "num_workers": 8,
+    "all_ln": false,
+    "cgs_thresh": 0.4,
+    "k": 20,
+    "bank_size": 2048,
+    "lr": 0.0001,
+    "steps": 1
+  },
+  "results": {
+    "source_only": {
+      "gaussian_noise": {
+        "acc": 0.3244,
+        "ece": 0.04774512446194887
+      },
+      "shot_noise": {
+        "acc": 0.308,
+        "ece": 0.009669335020184518
+      },
+      "impulse_noise": {
+        "acc": 0.3358,
+        "ece": 0.07286356853410601
+      },
+      "defocus_blur": {
+        "acc": 0.31178,
+        "ece": 0.05883877431832254
+      },
+      "glass_blur": {
+        "acc": 0.21012,
+        "ece": 0.14734563956871627
+      },
+      "motion_blur": {
+        "acc": 0.32526,
+        "ece": 0.08673262010939417
+      },
+      "zoom_blur": {
+        "acc": 0.33466,
+        "ece": 0.09801724462546409
+      },
+      "snow": {
+        "acc": 0.3933,
+        "ece": 0.060118869586810474
+      },
+      "frost": {
+        "acc": 0.52364,
+        "ece": 0.13898163207829
+      },
+      "fog": {
+        "acc": 0.50058,
+        "ece": 0.2709449823820591
+      },
+      "brightness": {
+        "acc": 0.69216,
+        "ece": 0.04863692440003157
+      },
+      "contrast": {
+        "acc": 0.19244,
+        "ece": 0.13052532302767042
+      },
+      "elastic_transform": {
+        "acc": 0.39528,
+        "ece": 0.10573025883160532
+      },
+      "pixelate": {
+        "acc": 0.42014,
+        "ece": 0.053217277441024786
+      },
+      "jpeg_compression": {
+        "acc": 0.52198,
+        "ece": 0.0395337541051954
+      }
+    },
+    "tent": {
+      "gaussian_noise": {
+        "acc": 0.33028,
+        "ece": 0.1765665470957756
+      },
+      "shot_noise": {
+        "acc": 0.31128,
+        "ece": 0.19288027113705877
+      },
+      "impulse_noise": {
+        "acc": 0.3435,
+        "ece": 0.16784741033166645
+      },
+      "defocus_blur": {
+        "acc": 0.32374,
+        "ece": 0.19679014592051505
+      },
+      "glass_blur": {
+        "acc": 0.18654,
+        "ece": 0.37552250199139126
+      },
+      "motion_blur": {
+        "acc": 0.30242,
+        "ece": 0.2986108252734691
+      },
+      "zoom_blur": {
+        "acc": 0.27524,
+        "ece": 0.38520429897233843
+      },
+      "snow": {
+        "acc": 0.39324,
+        "ece": 0.20841835604771974
+      },
+      "frost": {
+        "acc": 0.53524,
+        "ece": 0.08477562628410756
+      },
+      "fog": {
+        "acc": 0.58224,
+        "ece": 0.06059071985989806
+      },
+      "brightness": {
+        "acc": 0.69458,
+        "ece": 0.06559358386069537
+      },
+      "contrast": {
+        "acc": 0.0535,
+        "ece": 0.7312525562390685
+      },
+      "elastic_transform": {
+        "acc": 0.3995,
+        "ece": 0.2234412594887614
+      },
+      "pixelate": {
+        "acc": 0.42048,
+        "ece": 0.18690366462007163
+      },
+      "jpeg_compression": {
+        "acc": 0.52672,
+        "ece": 0.13820877792604266
+      }
+    },
+    "cgt_tta": {
+      "gaussian_noise": {
+        "acc": 0.3301,
+        "ece": 0.17625813598774373,
+        "gate_rate": 0.31536
+      },
+      "shot_noise": {
+        "acc": 0.31116,
+        "ece": 0.19256189570710064,
+        "gate_rate": 0.30538
+      },
+      "impulse_noise": {
+        "acc": 0.34332,
+        "ece": 0.1675082525539398,
+        "gate_rate": 0.31662
+      },
+      "defocus_blur": {
+        "acc": 0.32354,
+        "ece": 0.19661867520481346,
+        "gate_rate": 0.29346
+      },
+      "glass_blur": {
+        "acc": 0.18676,
+        "ece": 0.37489195779696105,
+        "gate_rate": 0.48198
+      },
+      "motion_blur": {
+        "acc": 0.30252,
+        "ece": 0.29813933388188485,
+        "gate_rate": 0.43904
+      },
+      "zoom_blur": {
+        "acc": 0.27534,
+        "ece": 0.3847389693172276,
+        "gate_rate": 0.49484
+      },
+      "snow": {
+        "acc": 0.39316,
+        "ece": 0.20813058875113724,
+        "gate_rate": 0.31958
+      },
+      "frost": {
+        "acc": 0.53508,
+        "ece": 0.08433790042005479,
+        "gate_rate": 0.15528
+      },
+      "fog": {
+        "acc": 0.58198,
+        "ece": 0.061182168446481236,
+        "gate_rate": 0.23602
+      },
+      "brightness": {
+        "acc": 0.69454,
+        "ece": 0.06530645655572415,
+        "gate_rate": 0.08716
+      },
+      "contrast": {
+        "acc": 0.05362,
+        "ece": 0.7306957153574377,
+        "gate_rate": 0.75574
+      },
+      "elastic_transform": {
+        "acc": 0.3993,
+        "ece": 0.22329199993044138,
+        "gate_rate": 0.34078
+      },
+      "pixelate": {
+        "acc": 0.42036,
+        "ece": 0.18664980926126243,
+        "gate_rate": 0.29718
+      },
+      "jpeg_compression": {
+        "acc": 0.52664,
+        "ece": 0.13792393090628088,
+        "gate_rate": 0.18536
+      }
+    }
+  }
+}
